@@ -190,8 +190,8 @@ section.success {
   color: white;
 }
 section.mid {
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: black;
 }
 @media (max-width: 767px) {
   section {
