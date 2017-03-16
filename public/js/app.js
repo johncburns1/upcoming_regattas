@@ -1,8 +1,8 @@
-angular.module("contactsApp", ['ngRoute'])
+angular.module("sailingApp", ['ngRoute'])
   .config(function($routeProvider) {
     $routeProvider
       .when("/", {
-        templateUrl: "pages/list.html",
+        templateUrl: "",
         controller: "ListController",
         resolve: {
           contacts: function(Contacts) {
